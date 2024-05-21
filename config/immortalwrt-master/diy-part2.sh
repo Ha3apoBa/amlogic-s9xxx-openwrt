@@ -29,6 +29,7 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/Auroraxpm/argon package/argon
 git clone https://github.com/immortalwrt/homeproxy  package/homeproxy
 git clone https://github.com/vernesong/OpenClash  package/OpenClash
+git clone https://github.com/v2rayA/v2raya-openwrt  package/v2raya-openwrt
 #
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
