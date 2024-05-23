@@ -33,6 +33,7 @@ git clone https://github.com/vernesong/OpenClash  package/OpenClash
 git clone https://github.com/v2rayA/v2raya-openwrt  package/v2raya-openwrt
 git clone https://github.com/xiaorouji/openwrt-passwall2  package/openwrt-passwall2
 git clone https://github.com/xiaorouji/openwrt-passwall  package/openwrt-passwall
+git clone https://github.com/linkease/istore    package/istore 
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
