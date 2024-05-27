@@ -24,7 +24,7 @@ echo "DISTRIB_SOURCECODE='official'" >>package/base-files/files/etc/openwrt_rele
 #
 # Add luci-app-amlogic
 rm -rf package/luci-app-amlogic
-git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
+git clone https://github.com/Thaolga/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/Auroraxpm/argon package/argon
 #git clone https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
 git clone https://github.com/immortalwrt/homeproxy  package/homeproxy
