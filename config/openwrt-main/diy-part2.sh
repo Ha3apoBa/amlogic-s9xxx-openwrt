@@ -34,6 +34,11 @@ git clone https://github.com/Thaolga/openwrt-passwall2  package/openwrt-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall  package/openwrt-passwall
 git clone https://github.com/linkease/istore    package/istore 
 git clone https://github.com/fw876/helloworld   package/helloworld 
+git clone https://github.com/sirpdboy/luci-app-autotimeset.git   package/luci-app-autotimeset
+git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git   package/luci-app-poweroffdevice
+git clone https://github.com/sirpdboy/luci-app-ddns-go   package/luci-app-ddns-go 
+git clone https://github.com/sirpdboy/luci-app-advancedplus  package/luci-app-advancedplus 
+git clone https://github.com/sirpdboy/luci-app-partexp   package/luci-app-partexp
 #
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
