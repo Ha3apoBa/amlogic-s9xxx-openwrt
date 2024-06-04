@@ -39,7 +39,7 @@ git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git   package/luci
 git clone https://github.com/sirpdboy/luci-app-ddns-go   package/luci-app-ddns-go 
 git clone https://github.com/sirpdboy/luci-app-advancedplus  package/luci-app-advancedplus 
 git clone https://github.com/sirpdboy/luci-app-partexp   package/luci-app-partexp
-git clone https://github.com/yichya/luci-app-xray   package/luci-app-xray 
+# git clone https://github.com/yichya/luci-app-xray   package/luci-app-xray 
 #
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
