@@ -337,7 +337,7 @@ jobs:
         run: |
           cd openwrt/
           echo -e "$(nproc) thread compile"
-          make -j$(($(nproc) + 1)) V=s || make -j1 || make -j1 V=s
+          make -j$(($(nproc) + 8)) V=s || make -j8 || make -j8 V=s
           echo "status=success" >> ${GITHUB_OUTPUT}
 
       - name: Clear server space
