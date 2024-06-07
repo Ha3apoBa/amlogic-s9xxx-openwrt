@@ -20,6 +20,7 @@ on:
           - official
           - lede
           - immortalwrt
+          - x-wrt-main
       docker_img:
         description: "Set the docker image"
         required: false
