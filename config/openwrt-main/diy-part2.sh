@@ -23,6 +23,8 @@ echo "DISTRIB_SOURCECODE='official'" >>package/base-files/files/etc/openwrt_rele
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
+rm -rf feeds/packages/net/sing-box
+rm -rf feeds/packages/net/xray-core
 rm -rf package/luci-app-amlogic
 git clone https://github.com/Thaolga/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/Auroraxpm/argon package/argon
