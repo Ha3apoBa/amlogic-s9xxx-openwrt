@@ -30,7 +30,7 @@ git clone https://github.com/Auroraxpm/argon package/argon
 git clone https://github.com/immortalwrt/homeproxy  package/homeproxy
 git clone https://github.com/Thaolga/small-package  package/small-package
 git clone https://github.com/v2rayA/v2raya-openwrt  package/v2raya-openwrt
-git clone https://github.com/Thaolga/openwrt-passwall2  package/openwrt-passwall2
+#git clone https://github.com/Thaolga/openwrt-passwall2  package/openwrt-passwall2
 git clone https://github.com/xiaorouji/openwrt-passwall  package/openwrt-passwall
 git clone https://github.com/linkease/istore    package/istore 
 #git clone https://github.com/fw876/helloworld   package/helloworld 
