@@ -210,7 +210,7 @@ on:
           - ophub
           - angel
           - yourname
-          - 𝐓𝐮𝐚̂𝐧 𝐁𝐞́
+        
 
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
