@@ -34,7 +34,7 @@ git clone https://github.com/v2rayA/v2raya-openwrt  package/v2raya-openwrt
 git clone https://github.com/xiaorouji/openwrt-passwall  package/openwrt-passwall
 git clone https://github.com/linkease/istore    package/istore 
 git clone https://github.com/morytyann/OpenWrt-mihomo    package/OpenWrt-mihomo
-#git clone https://github.com/QiuSimons/luci-app-daed   package/luci-app-daed
+git clone https://github.com/QiuSimons/luci-app-daed   package/luci-app-daed
 #git clone https://github.com/fw876/helloworld   package/helloworld 
 #git clone https://github.com/sirpdboy/luci-app-autotimeset.git   package/luci-app-autotimeset
 #git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git   package/luci-app-poweroffdevice
@@ -42,6 +42,7 @@ git clone https://github.com/morytyann/OpenWrt-mihomo    package/OpenWrt-mihomo
 #git clone https://github.com/sirpdboy/luci-app-advancedplus  package/luci-app-advancedplus 
 #git clone https://github.com/sirpdboy/luci-app-partexp   package/luci-app-partexp
 git clone https://github.com/muink/luci-app-tinyfilemanager package/luci-app-tinyfilemanager
+git clone https://github.com/Thaolga/diy package/diy
 cd package/argon
 tar   xvJf  luci-app-neko.tar.xz
 # git clone https://github.com/yichya/luci-app-xray   package/luci-app-xray 
