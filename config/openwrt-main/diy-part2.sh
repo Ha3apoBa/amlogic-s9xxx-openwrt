@@ -34,7 +34,7 @@ git clone https://github.com/v2rayA/v2raya-openwrt  package/v2raya-openwrt
 git clone https://github.com/xiaorouji/openwrt-passwall  package/openwrt-passwall
 git clone https://github.com/linkease/istore    package/istore 
 git clone https://github.com/morytyann/OpenWrt-mihomo    package/OpenWrt-mihomo
-git clone https://github.com/Thaolga/luci-app-daed   package/dae
+git clone https://github.com/sbwml/luci-app-daed   package/dae
 #git clone https://github.com/fw876/helloworld   package/helloworld 
 #git clone https://github.com/sirpdboy/luci-app-autotimeset.git   package/luci-app-autotimeset
 #git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git   package/luci-app-poweroffdevice
