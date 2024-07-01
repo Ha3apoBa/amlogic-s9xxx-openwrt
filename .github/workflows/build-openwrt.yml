@@ -284,8 +284,8 @@ jobs:
               TAGS_NAME="lede"
           elif [[ "${{ inputs.source_branch }}" == *"immortalwrt"* ]]; then
               REPO_URL="https://github.com/immortalwrt/immortalwrt"
-              REPO_BRANCH="master"
-              TAGS_NAME="immortalwrt"
+              REPO_BRANCH="v23.05"
+              TAGS_NAME="immortalwrt_23.05"
           elif [[ "${{ inputs.source_branch }}" == *"x-wrt"* ]]; then
               REPO_URL="https://github.com/x-wrt/x-wrt"
               REPO_BRANCH="24.04_b202406060001"

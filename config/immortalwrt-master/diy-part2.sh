@@ -23,19 +23,33 @@ echo "DISTRIB_SOURCECODE='immortalwrt'" >>package/base-files/files/etc/openwrt_r
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
-
 rm -rf package/luci-app-amlogic
-git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
+git clone https://github.com/Thaolga/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/Auroraxpm/argon package/argon
-git clone https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
-#git clone https://github.com/immortalwrt/homeproxy  package/homeproxy
-git clone https://github.com/vernesong/OpenClash  package/OpenClash
+#git clone https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
+git clone https://github.com/immortalwrt/homeproxy  package/homeproxy
+git clone https://github.com/Thaolga/small-package  package/small-package
 git clone https://github.com/v2rayA/v2raya-openwrt  package/v2raya-openwrt
-git clone https://github.com/Thaolga/openwrt-passwall2  package/openwrt-passwall2
+#git clone https://github.com/Thaolga/openwrt-passwall2  package/openwrt-passwall2
 git clone https://github.com/xiaorouji/openwrt-passwall  package/openwrt-passwall
 git clone https://github.com/linkease/istore    package/istore 
+git clone https://github.com/morytyann/OpenWrt-mihomo    package/OpenWrt-mihomo
+git clone https://github.com/sbwml/luci-app-daed   package/dae
+#git clone https://github.com/fw876/helloworld   package/helloworld 
+#git clone https://github.com/sirpdboy/luci-app-autotimeset.git   package/luci-app-autotimeset
+#git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git   package/luci-app-poweroffdevice
+#git clone https://github.com/sirpdboy/luci-app-ddns-go   package/luci-app-ddns-go 
+#git clone https://github.com/sirpdboy/luci-app-advancedplus  package/luci-app-advancedplus 
+#git clone https://github.com/sirpdboy/luci-app-partexp   package/luci-app-partexp
+git clone https://github.com/muink/luci-app-tinyfilemanager package/luci-app-tinyfilemanager
+git clone https://github.com/Thaolga/diy package/diy
+cd package/argon
+tar   xvJf  luci-app-neko.tar.xz
+# git clone https://github.com/yichya/luci-app-xray   package/luci-app-xray 
+#
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
+
 
