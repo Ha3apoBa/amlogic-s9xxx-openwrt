@@ -11,4 +11,5 @@
 
 # other
 # rm -rf package/utils/{ucode,fbtest}
-
+#rm -rf feeds/packages/net/sing-box
+#rm -rf feeds/packages/net/xray-core
