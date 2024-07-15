@@ -69,10 +69,10 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-𝐓𝐮𝐚̂𝐧 𝐁𝐞́"
+        default: "-T𝐮𝐚𝐧 Be"
         type: choice
         options:
-          - -𝐓𝐮𝐚̂𝐧 𝐁𝐞́
+          - -T𝐮𝐚𝐧 𝐁𝐞
           - -yourname
 
 env:
