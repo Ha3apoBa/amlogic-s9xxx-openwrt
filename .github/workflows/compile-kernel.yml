@@ -70,12 +70,11 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-flippy"
+        default: "-tuanbe"
         type: choice
         options:
           - -flippy
-          - -yourname
-
+          - -tuanbe
 env:
   TZ: America/New_York
 
