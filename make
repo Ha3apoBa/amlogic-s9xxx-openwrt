@@ -347,6 +347,7 @@ find_openwrt() {
             official) OPENWRT_SOURCECODE="github.com/openwrt/openwrt" ;;
             lede) OPENWRT_SOURCECODE="github.com/coolsnowwolf/lede" ;;
             immortalwrt) OPENWRT_SOURCECODE="github.com/immortalwrt/immortalwrt" ;;
+			x-wrt) OPENWRT_SOURCECODE="https://github.com/x-wrt/x-wrt" ;;
             *) OPENWRT_SOURCECODE="unknown" ;;
             esac
 
