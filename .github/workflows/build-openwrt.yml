@@ -18,6 +18,7 @@ on:
           - openwrt-main
           - lede-master
           - immortalwrt-master
+          - x-wrt-main
       openwrt_board:
         description: "Select device board"
         required: false
@@ -209,12 +210,12 @@ on:
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false
-        default: "ophub"
+        default: "tuanbe"
         type: choice
         options:
           - ophub
           - angel
-          - yourname
+          - tuanbe
 
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
@@ -280,16 +281,20 @@ jobs:
           # Set up compilation source code
           if [[ "${{ inputs.source_branch }}" == *"openwrt"* ]]; then
               REPO_URL="https://github.com/openwrt/openwrt"
-              REPO_BRANCH="main"
-              TAGS_NAME="official"
+              REPO_BRANCH="v23.05.4"
+              TAGS_NAME="official_23.05.4"
           elif [[ "${{ inputs.source_branch }}" == *"lede"* ]]; then
               REPO_URL="https://github.com/coolsnowwolf/lede"
               REPO_BRANCH="master"
               TAGS_NAME="lede"
           elif [[ "${{ inputs.source_branch }}" == *"immortalwrt"* ]]; then
               REPO_URL="https://github.com/immortalwrt/immortalwrt"
-              REPO_BRANCH="master"
-              TAGS_NAME="immortalwrt"
+              REPO_BRANCH="openwrt-23.05"
+              TAGS_NAME="immortalwrt_23.05"
+          elif [[ "${{ inputs.source_branch }}" == *"x-wrt"* ]]; then
+              REPO_URL="https://github.com/x-wrt/x-wrt"
+              REPO_BRANCH="24.04_b202407010752"
+              TAGS_NAME="x-wrt"
           else
               echo "Unknown source code repository."
               exit 1
