@@ -44,7 +44,9 @@ git clone https://github.com/sbwml/luci-app-daed   package/dae
 #git clone https://github.com/sirpdboy/luci-app-partexp   package/luci-app-partexp
 git clone https://github.com/muink/luci-app-tinyfilemanager package/luci-app-tinyfilemanager
 git clone https://github.com/Thaolga/diy package/diy
-git clone  https://github.com/Thaolga/openwrt-nekobox  package/openwrt-nekobox
+#git clone  https://github.com/Thaolga/openwrt-nekobox  package/openwrt-nekobox
+cd package/argon
+tar   xvJf  luci-app-nekobox.tar.xz
 
 # git clone https://github.com/yichya/luci-app-xray   package/luci-app-xray 
 #
