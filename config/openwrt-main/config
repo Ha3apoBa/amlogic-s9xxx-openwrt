@@ -99,6 +99,7 @@ CONFIG_DEFAULT_kmod-sfp=y
 CONFIG_DEFAULT_kmod-thunderx-net=y
 CONFIG_DEFAULT_kmod-vmxnet3=y
 CONFIG_DEFAULT_kmod-wdt-sp805=y
+CONFIG_DEFAULT_kmod-netlink-diag=y
 CONFIG_DEFAULT_libc=y
 CONFIG_DEFAULT_libgcc=y
 CONFIG_DEFAULT_libustream-mbedtls=y
