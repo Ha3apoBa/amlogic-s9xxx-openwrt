@@ -30,6 +30,7 @@ on:
           - s912-x92_s922x_s922x-ct2000_s922x-reva_seewo-sv21_smart-am40_station-m1_sw799_swan1-w28
           - tanix-tx6_tb-ls3399_tn3399_tpm312_tqc-a01_tvi3315a_vplus_xiaobao_yskj_zcube1-max_zk-r39a_zysj
           - vplus_tanix-tx6_tqc-a01
+          - s905d_s905x3-h96max_s905x3-hk1_r66s_r68s_rock5b_rock5c_nanopi-r5c_nanopi-r5s
           - a311d
           - beikeyun
           - chainedbox
@@ -219,12 +220,12 @@ on:
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false
-        default: "ophub"
+        default: "tuanbe"
         type: choice
         options:
           - ophub
           - angel
-          - yourname
+          - tuanbe
 
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
@@ -290,8 +291,8 @@ jobs:
           # Set up compilation source code
           if [[ "${{ inputs.source_branch }}" == *"openwrt"* ]]; then
               REPO_URL="https://github.com/openwrt/openwrt"
-              REPO_BRANCH="main"
-              TAGS_NAME="official"
+              REPO_BRANCH="v24.10.0-rc2"
+              TAGS_NAME="official_v24.10.0-rc2"
           elif [[ "${{ inputs.source_branch }}" == *"lede"* ]]; then
               REPO_URL="https://github.com/coolsnowwolf/lede"
               REPO_BRANCH="master"
