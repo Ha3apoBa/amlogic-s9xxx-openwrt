@@ -33,6 +33,7 @@ git clone https://github.com/v2rayA/v2raya-openwrt  package/v2raya-openwrt
 #git clone https://github.com/Thaolga/openwrt-passwall2  package/openwrt-passwall2
 git clone https://github.com/xiaorouji/openwrt-passwall  package/openwrt-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall2  package/openwrt-passwall2
+git clone https://github.com/xiaorouji/openwrt-passwall-packages  package/packages
 git clone https://github.com/vernesong/OpenClash  package/OpenClash
 git clone https://github.com/Thaolga/openwrt-spectra package/openwrt-spectra
 git clone https://github.com/linkease/istore    package/istore 
