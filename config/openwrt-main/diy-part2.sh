@@ -39,7 +39,7 @@ git clone https://github.com/Thaolga/openwrt-spectra package/openwrt-spectra
 git clone https://github.com/linkease/istore    package/istore 
 git clone https://github.com/muink/openwrt-fchomo    package/openwrt-fchomo
 git clone https://github.com/morytyann/OpenWrt-mihomo    package/OpenWrt-mihomo
-git clone https://github.com/sbwml/luci-app-daed   package/dae
+git clone https://github.com/SURFBOARD-ONE/luci-app-daed   package/dae
 git clone https://github.com/fw876/helloworld   package/helloworld 
 #git clone https://github.com/sirpdboy/luci-app-autotimeset.git   package/luci-app-autotimeset
 #git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git   package/luci-app-poweroffdevice
@@ -49,6 +49,7 @@ git clone https://github.com/fw876/helloworld   package/helloworld
 git clone https://github.com/muink/luci-app-tinyfilemanager package/luci-app-tinyfilemanager
 #git clone https://github.com/Thaolga/diy package/diy
 #git clone  https://github.com/Thaolga/openwrt-nekobox  package/openwrt-nekobox
+mkdir -p package/libcron && wget -O package/libcron/Makefile https://raw.githubusercontent.com/immortalwrt/packages/refs/heads/master/libs/libcron/Makefile
 git clone https://github.com/Thaolga/openwrt-nekobox package/openwrt-nekobox && cd package/openwrt-nekobox && git checkout nekobox
 
 
