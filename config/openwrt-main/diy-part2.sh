@@ -49,8 +49,8 @@ git clone https://github.com/fw876/helloworld   package/helloworld
 git clone https://github.com/muink/luci-app-tinyfilemanager package/luci-app-tinyfilemanager
 #git clone https://github.com/Thaolga/diy package/diy
 #git clone  https://github.com/Thaolga/openwrt-nekobox  package/openwrt-nekobox
-cd package/argon
-tar   xvJf  openwrt-nekobox.tar.xz
+git clone https://github.com/Thaolga/openwrt-nekobox package/openwrt-nekobox && cd package/openwrt-nekobox && git checkout nekobox
+
 
 # git clone https://github.com/yichya/luci-app-xray   package/luci-app-xray 
 #
