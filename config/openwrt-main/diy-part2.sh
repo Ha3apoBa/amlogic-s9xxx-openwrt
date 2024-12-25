@@ -35,7 +35,7 @@ git clone https://github.com/xiaorouji/openwrt-passwall  package/openwrt-passwal
 git clone https://github.com/xiaorouji/openwrt-passwall2  package/openwrt-passwall2
 git clone https://github.com/xiaorouji/openwrt-passwall-packages  package/packages
 git clone https://github.com/vernesong/OpenClash  package/OpenClash
-git clone https://github.com/Thaolga/openwrt-spectra package/openwrt-spectra
+#git clone https://github.com/Thaolga/openwrt-spectra package/openwrt-spectra
 git clone https://github.com/linkease/istore    package/istore 
 git clone https://github.com/muink/openwrt-fchomo    package/openwrt-fchomo
 git clone https://github.com/morytyann/OpenWrt-mihomo    package/OpenWrt-mihomo
