@@ -266,23 +266,6 @@ jobs:
           sudo timedatectl set-timezone "${TZ}"
           echo "status=success" >> ${GITHUB_OUTPUT}
 
-      - name: Install clang-15, llvm-15, and npm
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y software-properties-common
-          sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-          sudo apt-get update
-
-          sudo apt-get install -y clang-15 llvm-15
-
-          clang --version || echo "clang not found"
-          llvm-config --version || echo "llvm-config not found"
-
-          sudo apt-get install -y npm
-
-          npm --version || echo "npm not found"
-
-
       - name: Create simulated physical disk
         run: |
           mnt_size=$(expr $(df -h /mnt | tail -1 | awk '{print $4}' | sed 's/[[:alpha:]]//g' | sed 's/\..*//') - 1)
