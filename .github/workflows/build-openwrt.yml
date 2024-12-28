@@ -275,11 +275,13 @@ jobs:
 
           sudo apt-get install -y clang-15 llvm-15
 
+          clang --version || echo "clang not found"
+          llvm-config --version || echo "llvm-config not found"
+
           sudo apt-get install -y npm
 
-          clang --version
-          llvm-config --version
-          npm --version
+          npm --version || echo "npm not found"
+
 
       - name: Create simulated physical disk
         run: |
