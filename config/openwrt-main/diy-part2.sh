@@ -38,7 +38,7 @@ git clone https://github.com/vernesong/OpenClash  package/OpenClash
 #git clone https://github.com/Thaolga/openwrt-spectra package/openwrt-spectra
 git clone https://github.com/linkease/istore    package/istore 
 git clone https://github.com/muink/openwrt-fchomo    package/openwrt-fchomo
-git clone https://github.com/morytyann/OpenWrt-mihomo    package/OpenWrt-mihomo
+git clone https://github.com/nikkinikki-org/OpenWrt-nikki    package/OpenWrt-nikki
 git clone https://github.com/SURFBOARD-ONE/luci-app-daed   package/dae
 git clone https://github.com/fw876/helloworld   package/helloworld 
 #git clone https://github.com/sirpdboy/luci-app-autotimeset.git   package/luci-app-autotimeset
