@@ -27,7 +27,7 @@ rm -rf package/luci-app-amlogic
 #git clone https://github.com/Thaolga/luci-app-amlogic.git package/luci-app-amlogic
 #git clone https://github.com/Auroraxpm/argon package/argon
 #git clone https://github.com/kenzok8/small-package package/small-package
-#git clone https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
+git clone https://github.com/immortalwrt/homeproxy package/luci-app-homeproxy
 #git clone https://github.com/muink/luci-app-homeproxy  package/luci-app-homeproxy
 #git clone https://github.com/Thaolga/small-package  package/small-package
 #git clone https://github.com/v2rayA/v2raya-openwrt  package/v2raya-openwrt
@@ -38,8 +38,9 @@ git clone https://github.com/xiaorouji/openwrt-passwall-packages  package/packag
 git clone https://github.com/vernesong/OpenClash  package/OpenClash
 #git clone https://github.com/Thaolga/openwrt-spectra package/openwrt-spectra
 git clone https://github.com/linkease/istore    package/istore 
-#git clone https://github.com/Ha3apoBa/openwrt-fchomo    package/openwrt-fchomo
-git clone https://github.com/nikkinikki-org/OpenWrt-nikki    package/OpenWrt-nikki
+git clone https://github.com/fcshark-org/openwrt-fchomo    package/openwrt-fchomo
+git clone https://github.com/nikkinikki-org/OpenWrt-nikki   package/OpenWrt-nikki
+git clone https://github.com/nikkinikki-org/OpenWrt-momo  package/OpenWrt-momo
 #git clone https://github.com/SURFBOARD-ONE/luci-app-daed   package/dae
 #git clone https://github.com/fw876/helloworld   package/helloworld 
 #git clone https://github.com/sirpdboy/luci-app-autotimeset.git   package/luci-app-autotimeset
